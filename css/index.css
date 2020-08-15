@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: white;
+    background-color: #C0C0C0;
 }
 .container{
     box-sizing: border-box;
@@ -14,7 +14,7 @@ body{
     background-color: white;
     margin-left: 15%;
     margin-top: -4%;
-    border: solid black;
+    border: solid white;
 }
 .title{
     margin-left: 5%;
