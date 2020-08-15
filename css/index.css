@@ -10,7 +10,7 @@ body{
 .container{
     box-sizing: border-box;
     width: 70%;
-    height: 2000px;
+    height: 2300px;
     background-color: white;
     margin-left: 15%;
     margin-top: -4%;
@@ -111,7 +111,7 @@ li, a{
 .display{
     border: solid white;
     margin-left: 15%;
-    margin-top: -138%;
+    margin-top: -161%;
     width: 70%;
     height: 460px;
 }
@@ -175,4 +175,40 @@ li, a{
     width: 250px;
     height: 250px;
     object-fit: cover;
+}
+.video{
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 70%;
+}
+.video h3{
+    margin-left: 5%;
+    color:#4B6D7F;
+    font-size: 40px;
+    font-family:Sofia;
+}
+.video video{
+    margin-left: 4%;
+    margin-top: 2%;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    padding: 30px;
+    border-radius: 5px;
+    width: 320px;
+    height: 240px;
+    object-fit: cover;
+    border: none;
+    outline: none;
+}
+footer{
+    background-color: #97C8E1;
+    margin-left: 15%;
+    margin-top: 10%;
+    width: 70%;
+    height: 123px;
+}
+footer p{
+   font-size: 30px;
+   color: white;
+   margin-left: 5%;
 }
