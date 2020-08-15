@@ -38,6 +38,45 @@ body{
     object-fit: cover;
     margin-top: 2%;
 }
+.conversation{
+    float: right;
+    margin-right: 30%;
+    margin-top: -12%;
+    
+}
+.conversation p {
+    color: white;
+    margin: 10px;
+}
+.talk{
+    float: right;
+    margin-top: -12%;
+    margin-right: 16%;
+}
+.talk img{
+    width:110px;
+    height: 130px;
+    object-fit: cover;
+}
+.bubble {
+    position: relative;
+    background-color: #AB6310;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.bubble::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -30px;
+    top:35px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 30px solid #AB6310;
+}
 .navbar{
     background-color: #4B6D7F;
     width: 100%;
@@ -52,10 +91,11 @@ body{
     margin: 14px;
 }
 .links .active{
-    background-color: #AB6310;
-    padding: 10px 50px;
-    border-radius: 5px 0px 0px 5px;
-    margin-left: -10%;
+    color: #AB6310;
+    
+}
+.links a:hover{
+    color: #AB6310;
 }
 li, a{
     text-decoration: none;
